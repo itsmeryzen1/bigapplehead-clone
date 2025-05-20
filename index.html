@@ -3,47 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Improve your online reputation with our review management services.">
-    <title>Reviews Hub - Reputation Management</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Big Apple Head Inspired Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+            <div class="logo">Big Apple Head</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>Welcome to Reviews Hub</h1>
-        <p>Your trusted partner in reputation management</p>
-        <button><a href="#services">Explore Our Services</a></button>
+        <div class="hero-content">
+            <h1>Welcome to Big Apple Head</h1>
+            <p>Your one-stop destination for amazing experiences!</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a creative agency that delivers innovative solutions to clients around the globe.</p>
+    </section>
+
+    <!-- Services Section -->
     <section id="services" class="services">
         <h2>Our Services</h2>
-        <div class="service-item">
-            <h3>5-Star Reviews</h3>
-            <p>Boost your business with real 5-star reviews on Google.</p>
+        <div class="service-card">
+            <h3>Web Design</h3>
+            <p>Building user-friendly, beautiful websites that perform.</p>
         </div>
-        <div class="service-item">
-            <h3>Negative Review Removal</h3>
-            <p>We help you remove harmful and fake reviews from your profile.</p>
+        <div class="service-card">
+            <h3>SEO Optimization</h3>
+            <p>Maximizing your online presence with expert SEO strategies.</p>
         </div>
-        <div class="service-item">
-            <h3>Local SEO Services</h3>
-            <p>Get higher rankings and visibility for your business in local searches.</p>
+        <div class="service-card">
+            <h3>Consulting</h3>
+            <p>Helping your business grow with tailored consulting services.</p>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Reviews Hub. All rights reserved.</p>
-        <p>Contact us at <a href="mailto:info@reviewshub.com">info@reviewshub.com</a></p>
+        <p>&copy; 2025 Big Apple Head. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
