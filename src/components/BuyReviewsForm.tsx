@@ -129,7 +129,7 @@ const BuyReviewsForm = () => {
 
       if (response.ok) {
         setSubmitStatus({
-          message: 'Thank you for your order! We will begin processing your reviews soon.',
+          message: 'Thank you for your order! We will begin processing your reviews soon. Message on Telegram @itsmeryzen For faster Response.',
           success: true,
         });
         setFormData({
